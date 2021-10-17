@@ -38,13 +38,13 @@ plugins:
 pagination:
   enabled: true
   per_page: 3
-  permalink: '/page/:num/'
+  # permalink: '/page/:num/'
   title: ' - page :num'
   limit: 0
   sort_field: 'date'
   sort_reverse: true
 
-permalink: /:year/:month/:title.html
+# permalink: /:year/:month/:title.html
 
 # Exclude from processing.
 # The following items will not be processed, by default.
